@@ -9,10 +9,10 @@ background-color: white;
 width: 1170px;
 height: 147px;
 text-align: center;
-position: inline;
+position: inline; /* nie ma czegos takiego */
 }
 .nav img{
-margin: 10px 10px;
+margin: 10px 10px;  /* jesli z kazdej jest 10 to wystaczy: margin:10px */
 padding-left: 105px;
 padding-top: 52px;
 float:left;
@@ -29,8 +29,8 @@ font-family:'Rokkitt', serif;
 .nav ul {
 padding-left: 83px;
 padding-top: 60px;
-display:inline;
-float:left;
+display:inline;  /* jesli nizej dales float: left to ten element bedzie blokowy, inline nie zadziala */
+float:left; 
 }
 .nav li{
 margin: 20px;
@@ -42,7 +42,7 @@ color: #202242;
 text-decoration: none;
 font-family:'Rokkitt', serif;
 font-size: 17px;
-font-weight: semibold;
+font-weight: semibold;  /* jestes pewien ze istnieje taki wariant dla tej czcionki?? */
 }
 
 .nav a:hover{
@@ -58,22 +58,22 @@ font-weight:semibold;
 #kontakt a {
 background-color: #ffe13e;
 height: 41px;
-width: 122px;
+width: 122px;  /* <a> jest domyslnie elementem inline, na takich nie dziala width ani height */
 background-size: 41px 122px;
 }
 
 
 
 .nrtel {
-    Height: (wysokosc linii)px
-    Line-height: (wysokosc linii)px
+    Height: (wysokosc linii)px 
+    Line-height: (wysokosc linii)px  /* no kuuuurwa... Kopiuj z sensem */
     Padding-left: 20px
     Border-left: 1px solid #ccc
 }
 
 
 .full-width { width: 100% }
-#banner { background: url('../images/balon.jpg') no-repeat 50% 50%; background-size: cover: height: 794px; }
+#banner { background: url('../images/balon.jpg') no-repeat 50% 50%; background-size: cover; height: 794px; }
 .content { width: 1170px; margin: 0 auto; }
 
 
