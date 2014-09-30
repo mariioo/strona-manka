@@ -129,12 +129,14 @@ font-family: 'Rokkitt', serif
 }
 
 .wtop img{
-float:center;
-margin: 20px
+position: relative;
+display: inline-block;
+margin-top: 20px
 }
 
 .dom{
-display: inline-block;
+position:relative;
+margin: 40px 290px;
 width:547px;
 height:54px;
 background-color: #fff;
@@ -142,6 +144,7 @@ border: 15px solid rgba(255, 255, 255, .5);
     -webkit-background-clip: padding-box;
     background-clip: padding-box;
 }
+
 #dom{
 padding-top:0px;
 text-align:center;
