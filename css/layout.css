@@ -102,7 +102,9 @@ margin: 0 auto }
 
 .wtop {
 padding-top:250px;
-text-align: center
+text-align: center;
+float:center;
+display:block;
 }
 
 h2{
@@ -123,15 +125,16 @@ float:center
 
 .dom{
 float:center;
-width:570px;
-height:92px;
+width:547px;
+height:54px;
 background-color: #fff;
-filter:alpha(opacity=50);
-	opacity: 0.5;
-	-moz-opacity:0.5
+border: 15px solid rgba(255, 255, 255, .5);
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
 }
 #dom{
-padding-top:20px;
+padding-top:0px;
+text-align:center;
 width:275px;
 height:54px;
 border: 0
