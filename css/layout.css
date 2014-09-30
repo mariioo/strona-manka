@@ -103,15 +103,13 @@ margin: 0 auto }
 .wtop {
 padding-top:250px;
 text-align: center;
-float:center;
-display:block;
+
 }
 
 h2{
 font-size:40px;
 font-family: 'Rokkitt', serif;
-color: #ffffff
-
+color: #ffffff;
 }
 .wtop p{
 color: white;
@@ -120,11 +118,14 @@ font-family: 'Rokkitt', serif
 }
 
 .wtop img{
-float:center
+float:center;
+padding-left:40px;
+padding-bottom: 20px;
+margin: 20px
 }
 
 .dom{
-float:center;
+display: inline-block;
 width:547px;
 height:54px;
 background-color: #fff;
