@@ -9,7 +9,6 @@ background-color: white;
 height: 147px;
 margin-bottom: 20px;
 position: relative;
-width:1170px;
 float:center
 }
 .nav-logo {
@@ -29,14 +28,14 @@ float:left;
 font-size: 30px;
 color: #2f314f;
 font-family:'Rokkitt', serif;
-margin: 71px 15px 0 20px;
+margin: 73px 15px 0 10px;
 position: relative;
 
 }
 
 .nav ul {
 float:left;
-margin: 82px 0px 0px 20px;
+margin: 80px 0px 0px 0px;
 position: relative;
 width: 500px;
 
@@ -180,19 +179,14 @@ border:0;
 background-color: #202242
 }
 
-#service{
-repeat: no-repeat;
-float:center;
-width:100%;
-}
 
 #service1{
 
 background-color: #202242;
 width:50%;
-height: 750px;
+height: 450px;
 min-height: 50%;
-
+min-width: 585px;
 float:left
 
 }
@@ -200,63 +194,12 @@ float:left
 #service2{
 background-color: #ffe13e;
 width:50%;
-height:750px;
+height:450px;
 float: left;
 min-height: 50%;
-
-}
-h3{
-text-align:center;
-color: #fff;
-font-size: 35px;
-font-family: Raleway;
-
-}
-
-#service1 p, #service2 p{
-text-align:center;
-color: #fff;
-font-size: 14px;
-font-family: Raleway;
-width: 300px;
-}
-#service1 img{
-position: relative;
-display: inline-block;
-text-align:center;
-}
-
-
-.more{
-width:100px;
-height: 50px;
-text-align:center;
-border-color: #fff;
-border: 1px;
-}
-
-h1{
-text-align: center;
-color: #202242;
-font-size:133px;
-font-family: Raleway;
-font-size:bold
+ min-width: 585px
 }
 
 .features{
 text-align: center
-}
-
-.features h5{
-text-align: center;
-font-size: 48px;
-font-family: Raleway;
-font-size: bold;
-color: #202242;
-}
-.features p{
-font-family: Raleway;
-font-size: 24px;
-text-align: center;
-color: #202242;
 }
